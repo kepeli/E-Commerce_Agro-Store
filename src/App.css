@@ -1,0 +1,151 @@
+.headerDetails {
+  background-color: #013220;
+  color: white;
+  margin: 0;
+  padding: 0;
+  max-width: 100% !important;
+}
+
+div.me-auto.my-2.my-lg-0 {
+  margin-right: 0 !important;
+}
+
+@font-face {
+  font-family: TESLA;
+  src: url(../Images/TESLA.ttf);
+}
+
+.container {
+  justify-content: center;
+}
+
+.logo {
+  font-family: TESLA;
+  color: #29bc1e;
+}
+
+form.d-flex {
+  width: 71%;
+}
+
+
+
+
+/* CAROUSEL */
+.carousel-fade .carousel-item {
+  /* height: 90vh; */
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+/* div.carousel.slide.carousel-fade {
+    height: 50vw !important;
+   
+  } */
+
+
+
+/* CAROUSEL */
+/* BODY BORDER */
+div.card {
+border: none;
+}
+div.card:hover {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border:  none;
+}
+div.card-body {
+  padding:8px
+}
+.bodyBorder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.itemBodyBorder {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BODY BORDER */
+
+/* DISCOUNT PRICE */
+.discountBorder {
+  width: 100%;
+  background-image: url(../public/Images/Background_Images/category_icons.webp);
+  background-color: #013220;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+/* DISCOUNT PRICE */
+
+
+/* BODY */
+.body {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* . */
+
+.itemDisplay {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+.borderLine {
+  margin: 5px 5px;
+}
+.itemName {
+  font-weight: 700;
+  font-size: 14px;
+}
+.itemName:hover {
+  color: #29bc1e;
+}
+
+.object {
+width: 99%;
+margin-top: 10px;
+}
+
+p.card-text {
+  margin: 0;
+}
+.itemDiscountPrice {
+  font-weight: 600;
+  margin-right: 10px;
+}
+.itemPrice {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+.itemDiscountPrice:hover {
+  color: #29bc1e;
+}
+.soldBy {
+  font-size: 11px;
+}
+.sellar {
+  font-size: 10px;
+  font-family: TESLA;
+  color: #29bc1e;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* BODY */
